@@ -15,7 +15,7 @@ class App extends Component {
 				{
         this.state.show ? <h1 id='para'>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</h1> : null
       }
-      <button id='click' onClick={() => { this.setState(!this.state.show) }}>button</button>
+      <button id='click' onClick={() => this.setState(!this.state.show) }>button</button>
     </div>
 	    	);
     }
